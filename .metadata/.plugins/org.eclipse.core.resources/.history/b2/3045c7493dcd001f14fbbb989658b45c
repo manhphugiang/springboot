@@ -1,0 +1,26 @@
+package ca.sheridancollege.giangma;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class CarController {
+	@GetMapping("/")
+	public String iAmRoot() {
+		return "home.html";
+	}
+	
+	@GetMapping("/add")
+	public String loadAddCar() {
+		return "addCar.html";
+	}
+	
+	@GetMapping("/addCar")
+	public String processingAddCar(@RequestParam String model,
+									@RequestParam double price,
+									@RequestParam(required=false) boolean sunroof){
+		return "addCar.html";
+				
+	}
+}

@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1>Home Page</h1>
+<a th:href="@{/add}">Add Car</a>
+<a th:href="@{/view}">Add Car</a>
+<img th:src="@{a.jpeg}" width = "200" height= "200">
+
+</html>

@@ -1,0 +1,22 @@
+package ca.sheridancollege.giangma;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class CarController {
+	@GetMapping("/")
+	public String iAmRoot() {
+		return "home.html";
+	}
+	
+	@GetMapping("/add")
+	public String loadAddCar() {
+		return "addCar.html";
+	}
+	
+	@GetMapping("/addCar")
+	public String processingAddCar()
+{
+		return "addCar.html"}
+}

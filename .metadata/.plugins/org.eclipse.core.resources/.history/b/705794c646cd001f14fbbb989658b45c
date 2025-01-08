@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1> View Cars </h1>
+
+<table border="1">
+	<tr>
+		<th>Model</th>
+		<th>Price</th>
+		<th>Sunroof</th>
+	</tr>
+	<tr th:each="car : ${carToList}">
+		<td th:text="@{car.model}"></td>
+		<td th:text="@{car.price}"></td>
+		<td th:text="@{car.sunroof}">c</td>
+	</tr>
+
+	
+</html>

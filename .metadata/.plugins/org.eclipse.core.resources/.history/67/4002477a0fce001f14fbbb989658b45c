@@ -1,0 +1,8 @@
+package ca.sheridancollege.giangma.beans;
+
+public class Player {
+	private int id;
+	private String name;
+	private final String[] unitClass = {"Scout", "Sniper", "Soldier",
+			"Demoman", "Medic", "Heavy Weapons", "Pyro", "Spy", "Engineer"};
+}

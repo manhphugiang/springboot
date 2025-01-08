@@ -1,0 +1,6 @@
+package ca.sheridancollege.giangma.beans;
+import lombok.*;
+
+public class Car {
+	
+}

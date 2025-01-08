@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1>Add Car Page</h1>
+
+<form action="addCar" method="get" th:object="${car}">
+Model: <input type="text"><br>
+Price: <input type="number" step="0.01" name="price"><br>
+Sunroof: <input type="checkbox" name="sunroof"><br>
+<input type="submit" value="Add Car">
+</form>
+
+</html>
