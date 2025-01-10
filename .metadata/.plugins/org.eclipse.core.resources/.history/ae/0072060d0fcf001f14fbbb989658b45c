@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	
+
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Add Player</title>
+	    <link rel="stylesheet" href="./static/css/addPlayer.css">
+	</head>
+	
+	
+<form th:action="@{/add}" method="post" th:object=${player}>
+    Player ID:
+    <input type="number" id="id" name="id" placeholder="Enter player ID" th:field="*{id}" required>
+	<br>
+    Player Name:
+    <input type="text" id="name" name="name" placeholder="Enter player name" th:field="*{name}" required>
+	<br>
+    Select Unit Class:
+    <select  id="unitClass" name="unitClass" th:field="*{unitClass}" required>
+        <option value="Scout">Scout</option>
+        <option value="Sniper">Sniper</option>
+        <option value="Soldier">Soldier</option>
+        <option value="Demoman">Demoman</option>
+        <option value="Medic">Medic</option>
+        <option value="Heavy Weapons">Heavy Weapons</option>
+        <option value="Pyro">Pyro</option>
+        <option value="Spy">Spy</option>
+        <option value="Engineer">Engineer</option>
+    </select >
+	<br>
+	
+	
+    Select Team Color:
+	
+    <select id="teamColor" name="teamColor" th:field="*{teamColor}" required>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+    </select>
+	
+	<br>
+	<br>
+	<input type="submit" value="Add Player" />
+</form>
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Player</button></a>
+   <a href="/view"><button>View Players</button></a>
+</html>
