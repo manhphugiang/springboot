@@ -1,0 +1,21 @@
+package ca.sheridancollege.giangma.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import ca.sheridancollege.giangma.beans.Player;
+
+
+@Controller
+class PlayerController {
+		
+	public static ArrayList<Player> listOfPlayer= new ArrayList<Player>();
+
+	
+	@GetMapping("/")
+	public String getHomePage(){
+		return "home.html";
+		}
+}

@@ -1,0 +1,21 @@
+package ca.sheridancollege.giangma.beans;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Player {
+	private int id;
+	private String name;
+	private final String unitClass;
+	private final String teamColor;
+	
+	
+	
+//	
+//	private final String[] unitClass = {"Scout", "Sniper", "Soldier",
+//			"Demoman", "Medic", "Heavy Weapons", "Pyro", "Spy", "Engineer"};
+//	private final String[] teamColor = {"red", "blue"};
+//	
+}

@@ -1,0 +1,50 @@
+package ca.sheridancollege.giangma.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import ca.sheridancollege.giangma.beans.Player;
+
+
+@Controller
+class PlayerController {
+		
+	public static ArrayList<Player> listOfRedTeam= new ArrayList<Player>();
+	public static ArrayList<Player> listOfBlueTeam= new ArrayList<Player>();
+	
+	@GetMapping("/")
+	public String getHomePage(Model model){
+		return "home.html";
+		}
+	
+	@GetMapping("/add")
+	public String getAddPage(Model model) {
+		model.addAttribute("player", new Player());
+		return "addPlayer.html";
+	}
+	
+	@PostMapping("/add")
+	public String processingAddPage(@ModelAttribute Player player) {
+		String red = "red";
+		if(player.getTeamColor() == red) {
+			listOfRedTeam.add(player);
+		}else {
+			listOfBlueTeam.add(player);
+		}
+		System.out.print(listOfRedTeam.toString());
+
+		return "redirect:/add";		
+	}
+	
+	@GetMapping("/view")
+	public String getView(Model model) {
+		model.addAttribute("redPlayerToList", listOfRedTeam);
+		model.addAttribute("bluePlayerToList", listOfBlueTeam);
+		return "viewPlayers.html";
+	}
+}

@@ -1,0 +1,15 @@
+package ca.sheridancollege.giangma.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+class PlayerController {
+		
+	
+	
+	@GetMapping("/")
+	public String getHomePage(){
+		return "home.html";
+		}
+}
