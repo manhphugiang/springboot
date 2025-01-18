@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Game</title>
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>ISBN</th>
+            <th>Genre</th>
+        </tr>
+        <tr th:each="vg : ${videogame}">
+            <td th:text="${vg.id}">a</td>
+            <td th:text="${vg.title}">b</td>
+            <td th:text="${vg.price}">a</td>
+            <td th:text="${vg.isbn}">a</td>
+            <td th:text="${vg.genre}">a</td>
+        </tr>
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Game</button></a>
+   <a href="/view"><button>View Game</button></a>
+  </body>
+</html>

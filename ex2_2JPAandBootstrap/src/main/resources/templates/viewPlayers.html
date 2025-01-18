@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Players</title>
+		
+		<style>
+		    .bronze {
+		        background-color: rgb(215, 126, 30);
+		    }
+		    .silver {
+		        background-color: silver;
+		    }
+		    .gold {
+		        background-color: #ffd900;
+		    }
+		    .platinum {
+		        background-color: #197dd5;
+		    }
+		    .diamond {
+		        background-color: #8f62ef;
+		    }
+		</style>
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Kills</th>
+            <th>Deaths</th>
+            <th>Matches</th>
+			<th>Points</th>
+        </tr>		<!-- Bronze Players -->
+		    <tr th:each="vg : ${player}" th:if="${vg.points >= 0 && vg.points <= 99}" class="bronze">
+		        <td th:text="${vg.id}">1</td>
+		        <td th:text="${vg.name}">Player</td>
+		        <td th:text="${vg.kills}">0</td>
+		        <td th:text="${vg.deaths}">0</td>
+		        <td th:text="${vg.matches}">0</td>
+		        <td th:text="${vg.points}">0</td>
+		    </tr>
+
+		    <!-- Silver Players -->
+		    <tr th:each="vg : ${player}" th:if="${vg.points >= 100 && vg.points <= 299}" class="silver">
+		        <td th:text="${vg.id}">1</td>
+		        <td th:text="${vg.name}">Player</td>
+		        <td th:text="${vg.kills}">0</td>
+		        <td th:text="${vg.deaths}">0</td>
+		        <td th:text="${vg.matches}">0</td>
+		        <td th:text="${vg.points}">0</td>
+		    </tr>
+
+		    <!-- Gold Players -->
+		    <tr th:each="vg : ${player}" th:if="${vg.points >= 300 && vg.points <= 599}" class="gold">
+		        <td th:text="${vg.id}">1</td>
+		        <td th:text="${vg.name}">Player</td>
+		        <td th:text="${vg.kills}">0</td>
+		        <td th:text="${vg.deaths}">0</td>
+		        <td th:text="${vg.matches}">0</td>
+		        <td th:text="${vg.points}">0</td>
+		    </tr>
+
+		    <!-- Platinum Players -->
+		    <tr th:each="vg : ${player}" th:if="${vg.points >= 600 && vg.points <= 999}" class="platinum">
+		        <td th:text="${vg.id}">1</td>
+		        <td th:text="${vg.name}">Player</td>
+		        <td th:text="${vg.kills}">0</td>
+		        <td th:text="${vg.deaths}">0</td>
+		        <td th:text="${vg.matches}">0</td>
+		        <td th:text="${vg.points}">0</td>
+		    </tr>
+
+		    <!-- Diamond Players -->
+		    <tr th:each="vg : ${player}" th:if="${vg.points > 999}" class="diamond">
+		        <td th:text="${vg.id}">1</td>
+		        <td th:text="${vg.name}">Player</td>
+		        <td th:text="${vg.kills}">0</td>
+		        <td th:text="${vg.deaths}">0</td>
+		        <td th:text="${vg.matches}">0</td>
+		        <td th:text="${vg.points}">0</td>
+		    </tr>
+	
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Player</button></a>
+   <a href="/view"><button>View Player</button></a>
+  </body>
+</html>

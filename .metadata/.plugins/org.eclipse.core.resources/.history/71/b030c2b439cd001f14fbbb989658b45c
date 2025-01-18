@@ -1,9 +1,0 @@
-package ca.sheridancollege.giangma;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class CarController {
-	@GetMapping
-	
-}

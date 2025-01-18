@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Add Player</title>
+	</head>
+	
+<body>
+<h1>Add Player</h1>
+<form th:action="@{/add}" method="post" th:object="${player}">
+    Name: <input type="text" th:field="*{name}"><br>
+    Kills: <input type="number" th:field="*{kills}"><br>
+    Deaths: <input type="text" th:field="*{deaths}"><br>
+    Matches: <input type="text" th:field="*{matches}"><br>
+	Points: <input type="text" th:field="*{points}"><br>
+    <input type="submit" value="Add Player">
+</form>
+
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Player</button></a>
+   <a href="/view"><button>View Player</button></a>
+  </body>
+</html>

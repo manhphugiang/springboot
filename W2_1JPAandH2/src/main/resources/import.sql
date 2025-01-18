@@ -1,0 +1,1 @@
+insert into videogame (title, isbn, genre, price) values ('Dead Space', 124, 'Horror', 39.99);

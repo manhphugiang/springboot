@@ -1,7 +1,0 @@
-<h1>Add Car Page</h1>
-
-<form action="??" method="get">
-Model: <input type="text" name="model"><br>
-Price: <input type="number" name="price"><br>
-	
-</form>
