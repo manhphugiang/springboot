@@ -3,25 +3,29 @@
 	<head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>Add Player</title>
+	    <title>Edit Player</title>
 	</head>
 	
 <body>
 <h1>Add Player</h1>
-<form th:action="@{/add}" method="post" th:object="${player}">
+<form th:action="@{/edit}" method="post" th:object="${player}">
+	<input type="hidden" th:field="*{id}">
     Name: <input type="text" th:field="*{name}"><br>
     Guild Point: <input type="text" th:field="*{guildPoint}"><br>
     Unit Class: <select th:field="*{unitClass}">
         <option th:each="uc : *{unitClasses}" th:value="${uc}" th:text="${uc}">
         </option>
     </select>
-    <input type="submit" value="Add Player">
+    <input type="submit" value="Edit Player">
 </form>
 
 
 <h1>Navigation</h1>
    <a href="/"><button>Home</button></a>
-   <a href="/add"><button>Add</button></a>
-   <a href="/view"><button>View</button></a>
+   <a href="/add"><button>Add </button></a>
+   <a href="/view"><button>View </button></a>
+      
   </body>
 </html>
+
+
