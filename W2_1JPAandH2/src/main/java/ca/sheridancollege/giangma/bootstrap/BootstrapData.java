@@ -27,5 +27,11 @@ public class BootstrapData implements CommandLineRunner {
 		vgRepo.save(g3);
 		vgRepo.save(g4);
 		vgRepo.save(g5);
+		
+		vgRepo.save(g1);
+		vgRepo.save(g2);
+		vgRepo.save(g3);
+		vgRepo.save(g4);
+		vgRepo.save(g5);
 	}
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Page</title>
+</head>
+
+<form th:action="@{/searchTitle}" method="get" th:object="${videogame}">
+
+    Search Title: <input type="text" name="title"><br>
+
+    <input type="submit" value="Search Game">
+</form>
+<br><br>
+<form th:action="@{/searchPrice}" method="get" th:object="${videogame}">
+
+    Search For Price Less Than: <input type="number" step= "0.01" name="price"><br>
+
+    <input type="submit" value="Search Price">
+</form>
+
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>ISBN</th>
+        <th>Genre</th>
+    </tr>
+    <tr th:each="vg : ${videogame}">
+        <td th:text="${vg.id}">a</td>
+        <td th:text="${vg.title}">b</td>
+        <td th:text="${vg.price}">a</td>
+        <td th:text="${vg.isbn}">a</td>
+        <td th:text="${vg.genre}">a</td>
+
+    </tr>
+</table>
+
+<h1>Home Page</h1>
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Game</button></a>
+   <a href="/view"><button>View Game</button></a>
+
+</body>
+</html>

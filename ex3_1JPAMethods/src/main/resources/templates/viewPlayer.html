@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Player</title>
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Guild Point</th>
+            <th>Unit Class</th>
+        </tr>
+        <tr th:each="p: ${player}">
+            <td th:text="${p.id}">a</td>
+            <td th:text="${p.name}">b</td>
+            <td th:text="${p.guildPoint}">a</td>
+            <td th:text="${p.unitClass}">a</td>
+			<td> <a th:href="@{/edit/{id}(id=${p.id})}">Edit<t/a></td>
+			<td> <a th:href="@{/delete/{id}(id=${p.id})}">Delete<t/a></td>
+
+        </tr>
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add</button></a>
+   <a href="/view"><button>View</button></a>
+  </body>
+</html>

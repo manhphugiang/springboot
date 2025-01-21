@@ -23,6 +23,9 @@
             <td th:text="${vg.price}">a</td>
             <td th:text="${vg.isbn}">a</td>
             <td th:text="${vg.genre}">a</td>
+			<td> <a th:href="@{/edit/{id}(id=${vg.id})}">Edit<t/a></td>
+			<td> <a th:href="@{/delete/{id}(id=${vg.id})}">Delete<t/a></td>
+
         </tr>
     </table>
 
