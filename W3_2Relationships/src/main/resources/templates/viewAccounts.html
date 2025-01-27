@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Student Account</title>
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+			
+            <th>Account ID</th>
+            <th>Account Number</th>
+			<th>Account Balance</th>
+            <th>Account Status</th>
+        </tr>
+        <tr th:each="stu : ${meow}">
+            <td th:text="${stu.id}">a</td>
+            <td th:text="${stu.name}">b</td>
+            <td th:if="${stu.account != null}" th:text="${stu.account.id}">a</td>
+            <td th:unless="${stu.account !=null}" th:text="'No Account'">a </td>
+			<td th:if="${stu.account != null}" th:text="${stu.account.accountNumber}">a</td>
+			<td th:if="${stu.account != null}" th:text="${stu.account.balance}">a</td>
+			<td th:if="${stu.account != null}" th:text="${stu.account.status}">a</td>
+
+        </tr>
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Game</button></a>
+   <a href="/view"><button>View Game</button></a>
+  </body>
+</html>

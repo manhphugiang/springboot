@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>View Expo Details</title>
+		<link rel="stylesheet" href="./css/view.css">
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>Guest ID</th>
+            <th>Guest Name</th>
+			
+            <th>Pet ID</th>
+            <th>Pet Name</th>
+			<th>Pet Species</th>
+            
+        </tr>
+        <tr th:each="guest : ${guestList}">
+            <td th:text="${guest.id}">a</td>
+            <td th:text="${guest.name}">b</td>
+            <td th:if="${guest.pet != null}" th:text="${guest.pet.id}">a</td>
+            <td th:unless="${guest.pet !=null}" th:text="'No Pet'">a </td>
+			<td th:if="${guest.pet != null}" th:text="${guest.pet.name}">a</td>
+			<td th:if="${guest.pet != null}" th:text="${guest.pet.species}">a</td>
+
+        </tr>
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/addGuest"><button>Add Guest</button></a>
+   <a href="/addPet"><button>Add Pet</button></a>
+   <a href="/view"><button>View</button></a>
+  </body>
+</html>

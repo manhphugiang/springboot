@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import ca.sheridancollege.giangma.beans.Player;
-import ca.sheridancollege.giangma.beans.Videogame;
 import ca.sheridancollege.giangma.repository.PlayerRepository;
 import lombok.AllArgsConstructor;
 
