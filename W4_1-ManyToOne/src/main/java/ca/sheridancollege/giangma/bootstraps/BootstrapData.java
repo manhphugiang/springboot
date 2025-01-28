@@ -25,15 +25,17 @@ public class BootstrapData implements CommandLineRunner {
 		Employee e3 = Employee.builder().name("John").store(s1).build();
 		Employee e4 = Employee.builder().name("Jane").store(s2).build();
 		Employee e5 = Employee.builder().name("Mike").store(s2).build();
-		Employee e6 = Employee.builder().name("Sara").store(s2).build();
 
 
-		
+
 		empRepo.save(e1);
 		empRepo.save(e2);
 		empRepo.save(e3);
 		empRepo.save(e4);
 		empRepo.save(e5);
+		
+		Employee e6 = Employee.builder().name("Sara").build();
+
 		empRepo.save(e6);
 	}
 }
