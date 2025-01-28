@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import ca.sheridancollege.giangma.beans.Store;
 
 @Repository
-public interface storeRepository extends JpaRepositoryImplementation<Store, Integer>{
+public interface storeRepository extends MongoRepository<Store, String>{
 
 }

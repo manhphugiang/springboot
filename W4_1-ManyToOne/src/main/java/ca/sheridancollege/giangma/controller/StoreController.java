@@ -20,10 +20,10 @@ public class StoreController {
 	@GetMapping("/")
 	public String getHomePage(Model model) {
 		
-		Store s = storeRepo.findById(1).get();
-		Employee e = empRepo.findById(6).get();
-		e.setStore(s);
-		empRepo.save(e);
+//		Store s = storeRepo.findById(1).get();
+//		Employee e = empRepo.findById(6).get();
+//		e.setStore(s);
+//		empRepo.save(e);
 		
 		//Employee e2 = empRepo.findById(4).get();
 	//	empRepo.deleteById(4);

@@ -17,16 +17,19 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Entity
+//@Entity
+@Document
 @Builder
 public class Store {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String name;
 	
 	//one store has many employees
-	@OneToMany(mappedBy="store")
+	//@OneToMany(mappedBy="store")
+	
+	
 	private List<Employee> employees;
 }
 	

@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import ca.sheridancollege.giangma.beans.Employee;
 
 @Repository
-public interface employeeRepository extends JpaRepositoryImplementation<Employee, Integer> {
+public interface employeeRepository extends MongoRepository<Employee, String> {
 
 }
