@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Student</title>
+	</head>
+	
+<body>
+    
+
+    <table border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+			
+            <th>Grade</th>
+            <th>Letter Grade</th>
+        </tr>
+        <tr th:each="stu : ${meow}">
+            <td th:text="${stu.id}">a</td>
+            <td th:text="${stu.name}">b</td>
+			<td th:text="${stu.grade}">b</td>
+			<td th:text="${stu.letterGrade}">b</td>
+			<td> <a th:href="@{/edit/{id}(id=${stu.id})}">Edit<t/a></td>
+			<td> <a th:href="@{/delete/{id}(id=${stu.id})}">Delete<t/a></td>            
+        </tr>
+    </table>
+
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add Game</button></a>
+   <a href="/view"><button>View Game</button></a>
+  </body>
+</html>

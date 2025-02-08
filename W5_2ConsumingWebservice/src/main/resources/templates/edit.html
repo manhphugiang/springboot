@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Edit Student</title>
+	</head>
+	
+<body>
+    
+
+	<form th:action="@{/id}" method="post" th:object="${student}">
+		
+		<input type="hidden" th:field="*{id}">
+		Name: <input type="text" name="name" th:field="*{name}"><br>
+		Grade: <input type = "number" name="grade" th:field="*{grade}"><br>
+		<input type="hidden" th:field="*{letterGrade}">
+		
+	    <input type="submit" value="Edit Student">
+	</form>
+	
+	
+	
+	
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add</button></a>
+   <a href="/view"><button>View</button></a>
+  </body>
+</html>
