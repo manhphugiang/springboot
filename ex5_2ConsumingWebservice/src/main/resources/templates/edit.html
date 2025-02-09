@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Edit Player</title>
+	</head>
+	
+<body>
+    
+	<form th:action="@{'/edit/' + ${id}}" method="post" th:object="${player}">
+	    <input type="hidden" th:field="*{id}">
+	    Name: <input type="text" name="name" th:field="*{name}"><br>
+	    Player Class: <input type="text" name="playerClass" th:field="*{playerClass}"><br>
+	    Games Played: <input type="number" name="gamePlayed" th:field="*{gamePlayed}"><br>
+	    Games Won: <input type="number" name="gameWon" th:field="*{gameWon}"><br>
+	    Games Lost: <input type="number" name="gameLost" th:field="*{gameLost}"><br>
+	    Points: <input type="number" name="point" th:field="*{point}"><br>
+
+	    <input type="submit" value="Edit Player">
+	</form>
+
+	
+	
+	
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add</button></a>
+   <a href="/view"><button>View</button></a>
+  </body>
+</html>

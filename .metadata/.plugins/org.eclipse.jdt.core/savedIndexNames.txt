@@ -15,10 +15,10 @@ INDEX VERSION 1.134+C:\Users\gmanh\eclipse-workspace\.metadata\.plugins\org.ecli
 1949584369.index
 3854918615.index
 741987141.index
-148223440.index
 2675830705.index
 1578008041.index
 4222982407.index
+3843773638.index
 1617744109.index
 3418880615.index
 3375693726.index
@@ -35,13 +35,10 @@ INDEX VERSION 1.134+C:\Users\gmanh\eclipse-workspace\.metadata\.plugins\org.ecli
 4051904371.index
 1014684071.index
 3215240269.index
-2295570217.index
 1038744188.index
 665560440.index
 1969458325.index
 3166841226.index
-685524680.index
-4024350723.index
 3846934521.index
 2681891558.index
 1324997796.index
@@ -50,5 +47,4 @@ INDEX VERSION 1.134+C:\Users\gmanh\eclipse-workspace\.metadata\.plugins\org.ecli
 2249279339.index
 2412719125.index
 1876290593.index
-3558281145.index
 2020360488.index

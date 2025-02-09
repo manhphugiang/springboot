@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Add Player</title>
+	</head>
+	
+<body>
+    
+	<form action="/add" method="post">
+	    Name: <input type="text" name="name" required><br><br>
+	    Player Class: <input type="text" name="playerClass" required><br><br>
+	    Games Played: <input type="number" name="gamePlayed" required><br><br>
+	    Games Won: <input type="number" name="gameWon" required><br><br>
+	    Games Lost: <input type="number" name="gameLost" required><br><br>
+	    Points: <input type="number" name="point" required><br><br>
+	    
+	    <input type="submit" value="Add Student">
+	</form>
+	
+	
+	
+	
+	
+	
+	
+<h1>Navigation</h1>
+   <a href="/"><button>Home</button></a>
+   <a href="/add"><button>Add</button></a>
+   <a href="/view"><button>View</button></a>
+  </body>
+</html>
