@@ -23,6 +23,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Builder
 @Table(name="_user") // change the name of the table in SQL
 public class User implements UserDetails {
 
