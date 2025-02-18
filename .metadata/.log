@@ -2897,3 +2897,12 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-17 23:35:50.938
 !MESSAGE Boot project ADDED: MidtermReview_REST_ManhPhu_Giang
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 00:20:04.021
+!MESSAGE Classpath changed for project: MidtermReview_WEB_ManhPhu_Giang
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 00:20:04.022
+!MESSAGE Boot project ADDED: MidtermReview_WEB_ManhPhu_Giang
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-18 00:20:04.439
+!MESSAGE Classpath changed for project: MidtermReview_WEB_ManhPhu_Giang

@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import ca.sheridancollege.giangma.beans.Store;
@@ -15,17 +16,18 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("/store")
 public class storeRestController {
 	
 	private StoreRepository storeRepo;
 	
-	@GetMapping("/view")
+	@GetMapping(value= {"", "/"})
 	public List<Store> getAllStore(){
 		List<Store> l1 = storeRepo.findAll();
 		return l1;
 	}
 	
-	@GetMapping("/view/{id}")
+	@GetMapping("/{id}")
 	public Store getStoreById(@PathVariable long id){
 		Optional<Store> s1 = storeRepo.findById(id);
 		
@@ -35,7 +37,7 @@ public class storeRestController {
 			return null;
 	}
 	
-	@PostMapping("/add")
+	@PostMapping(value= {""}, headers = {"Content-type=application/json"})
 	public Store processingAddStore(@RequestBody Store store) {
 		store.setId(null);
 		store.setName(store.getName());

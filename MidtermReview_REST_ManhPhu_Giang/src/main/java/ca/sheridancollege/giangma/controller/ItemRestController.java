@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import ca.sheridancollege.giangma.beans.Item;
@@ -17,16 +18,17 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("/item")
 public class ItemRestController {
 	private ItemRepository itemRepo;
 	
-	@GetMapping("/viewItem")
+	@GetMapping(value= {"", "/"})
 	public List<Item> getAllItem(){
 		List<Item> l1 = itemRepo.findAll();
 		return l1;
 	}
 	
-	@GetMapping("/viewItem/{id}")
+	@GetMapping("/{id}")
 	public Item getItemById(@PathVariable long id){
 		Optional<Item> i1 = itemRepo.findById(id);
 		
@@ -36,23 +38,24 @@ public class ItemRestController {
 			return null;
 	}
 	
-	@PostMapping("/addItem")
+	@PostMapping(value= {""}, headers = {"Content-type=application/json"})
 	public Item processingAddItem(@RequestBody Item item) {
 		item.setId(null);
 		item.setName(item.getName());
 		item.setPrice(item.getPrice());
 		item.setStore(item.getStore());
+		itemRepo.save(item);
 		return item;
 	}
 	
 	
-	@PutMapping("/editItem/{id}")
+	@PutMapping(value="/{id}", headers = {"Content-type=application/json"})
 	public Item editItemById(@RequestBody Item item, @PathVariable long id) {
 		item.setId(id);
 		return itemRepo.save(item);
 	}
 	
-	@DeleteMapping("/deleteItem/{id}")
+	@DeleteMapping(value="/{id}")
 	public String deleteItemById(@PathVariable long id) {
 		itemRepo.deleteById(id);
 		return "Deleted" + id;
