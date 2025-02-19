@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Add Cupcake</title>
+	</head>
+	
+<body>
+    
+
+	<form action="/addCupcake" method="post">
+		Name: <input type="text" name="cupcakeName"><br>
+		Price: <input type = "number" step="0.01" name="price"><br>
+		Quantity: <input type = "number" name="quantity"><br>
+			
+		<select name="employeeName" required>
+			<option th:each="emp : ${employeeList}" th:value="${emp.name}" th:text="${emp.name}"></option>
+		</select>
+
+		
+		<input type="submit" value="Add Cupcake">
+	</form>
+
+
+	
+	
+
+		
+	<h1>Navigation</h1>
+	   <a href="/"><button>Home</button></a>
+	   <a href="/addEmployee"><button>Add Employee</button></a>
+	   <a href="/viewEmployee"><button>View Employee</button></a>
+	   
+	   <a href="/addCupcake"><button>Add Cupcake</button></a>
+	   <a href="/viewCupcake"><button>View Cupcake</button></a>
+ </body>
+</html>

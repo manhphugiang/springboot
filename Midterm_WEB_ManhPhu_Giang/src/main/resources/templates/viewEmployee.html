@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Firefighter Employee</title>
+	</head>
+	
+<body>
+    
+<h1>The Profession Of The Employee : FIERY FIREFIGHTER</h1>
+	
+    <table border="1">
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+			<th>Employee Profession</th>
+						
+        </tr>
+        <tr th:each="firefighter : ${firefighter}">
+            <td th:text="${firefighter.id}">a</td>
+            <td th:text="${firefighter.name}">b</td>
+			<td>Fiery Firefighters</td>
+		</tr>
+    </table>
+
+		
+	<h1>Navigation</h1>
+	   <a href="/"><button>Home</button></a>
+	   <a href="/addEmployee"><button>Add Employee</button></a>
+	   <a href="/viewEmployee"><button>View Employee</button></a>
+	   
+	   <a href="/addCupcake"><button>Add Cupcake</button></a>
+	   <a href="/viewCupcake"><button>View Cupcake</button></a>
+  </body>
+</html>

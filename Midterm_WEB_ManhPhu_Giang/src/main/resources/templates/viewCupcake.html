@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>View Cupcake</title>
+	</head>
+	
+<body>
+    
+    <table border="1">
+        <tr>
+            <th>Cupcake ID</th>
+            <th>Cupcake Name</th>
+			<th>Cupcake Price</th>
+			<th>Cupcake Quantity</th>
+			<th>Employee Name</th>
+			<th>Buy Some</th>
+		</tr>
+        <tr th:each="cupcake : ${cupcake}">
+            <td th:text="${cupcake.id}">a</td>
+            <td th:text="${cupcake.cupcakeName}">b</td>
+			<td th:text="${cupcake.price}">b</td>
+			
+			<td th:if="${cupcake.quantity <= 0}" style="color: red;">Sold Out</td>
+			<td th:unless="${cupcake.quantity <= 0}" th:text="${cupcake.quantity}">b</td>
+				
+			<td th:text="${cupcake.employeeName.name}">b</td>
+				
+			<td>
+				<a th:if="${cupcake.quantity > 0}" th:href="@{/purchaseItem/{id}(id=${cupcake.id})}">Purchase Cupcake</a>
+				<a th:href="@{/deleteCupcake/{id}(id=${cupcake.id})}">Delete</a>
+			</td>
+		</tr>
+    </table>
+
+	<h1>Navigation</h1>
+	<a href="/"><button>Home</button></a>
+	<a href="/addEmployee"><button>Add Employee</button></a>
+	<a href="/viewEmployee"><button>View Employee</button></a>
+	<a href="/addCupcake"><button>Add Cupcake</button></a>
+	<a href="/viewCupcake"><button>View Cupcake</button></a>
+
+</body>
+</html>

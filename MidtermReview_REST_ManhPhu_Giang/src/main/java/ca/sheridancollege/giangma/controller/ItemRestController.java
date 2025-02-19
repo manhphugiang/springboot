@@ -1,6 +1,7 @@
 package ca.sheridancollege.giangma.controller;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,10 +11,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import ca.sheridancollege.giangma.beans.Item;
+import ca.sheridancollege.giangma.beans.Store;
 import ca.sheridancollege.giangma.repository.ItemRepository;
+import ca.sheridancollege.giangma.repository.StoreRepository;
 import lombok.AllArgsConstructor;
 
 @RestController
@@ -21,7 +25,7 @@ import lombok.AllArgsConstructor;
 @RequestMapping("/item")
 public class ItemRestController {
 	private ItemRepository itemRepo;
-	
+	private StoreRepository storeRepo;
 	@GetMapping(value= {"", "/"})
 	public List<Item> getAllItem(){
 		List<Item> l1 = itemRepo.findAll();
@@ -38,16 +42,25 @@ public class ItemRestController {
 			return null;
 	}
 	
-	@PostMapping(value= {""}, headers = {"Content-type=application/json"})
-	public Item processingAddItem(@RequestBody Item item) {
-		item.setId(null);
-		item.setName(item.getName());
-		item.setPrice(item.getPrice());
-		item.setStore(item.getStore());
-		itemRepo.save(item);
-		return item;
+	@PostMapping(value = "", headers = "Content-type=application/json")
+	public Item processingAddItem(@RequestBody Map<String, Object> requestData) {
+	    String itemName = (String) requestData.get("itemName");
+	    double price = Double.parseDouble(requestData.get("price").toString());
+	    String storeName = (String) requestData.get("storeName");
+
+	    Store store = storeRepo.findByName(storeName);
+	    if (store == null) {
+	        throw new RuntimeException("Store not found");
+	    }
+
+	    Item item = new Item();
+	    item.setName(itemName);
+	    item.setPrice(price);
+	    item.setStore(store);
+
+	    return itemRepo.save(item);
 	}
-	
+
 	
 	@PutMapping(value="/{id}", headers = {"Content-type=application/json"})
 	public Item editItemById(@RequestBody Item item, @PathVariable long id) {
