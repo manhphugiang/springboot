@@ -15261,3 +15261,245 @@
 2025-02-18 17:28:44,514 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-18 17:28:44,515 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-02-18 17:28:44,517 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\Midterm_WEB_ManhPhu_Giang\src\test\resources
+2025-03-03 17:22:12,095 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-03 17:24:36,229 [Worker-20: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier  to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:10,340 [Worker-3: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:10,583 [Worker-3: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:10,846 [Worker-3: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:46,464 [Worker-20: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:46,668 [Worker-20: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:27:46,869 [Worker-20: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 17:28:22,480 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:28:22,652 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:28:22,680 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:28:25,101 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:28:25,106 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:28:25,112 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:39:01,259 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:39:01,264 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:39:01,268 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:39:13,372 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:39:13,378 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:39:13,382 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:39:54,163 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:39:54,167 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:39:54,172 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:39:56,059 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:39:56,063 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:39:56,067 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:40:06,078 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:40:06,082 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:40:06,085 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:40:21,294 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:40:21,299 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:40:21,302 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:40:31,477 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:40:31,480 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:40:31,484 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:40:40,318 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:40:40,322 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:40:40,325 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:41:00,675 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:41:00,678 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:41:00,682 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:41:12,060 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:41:12,064 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:41:12,066 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:41:18,305 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:41:18,309 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:41:18,312 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:47:16,536 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:47:16,542 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:47:16,545 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:48:15,839 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:48:15,844 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:48:15,848 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:48:26,188 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:48:26,193 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:48:26,197 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:50:52,201 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:50:52,205 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:50:52,210 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:50:54,289 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:50:54,293 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:50:54,297 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:53:05,786 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:53:05,794 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:53:05,798 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:53:23,098 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:53:23,102 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:53:23,105 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:53:28,966 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:53:28,970 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:53:28,973 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:53:33,472 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:53:33,476 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:53:33,479 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:16,126 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:16,159 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:16,164 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:21,424 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:21,429 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:21,433 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:26,017 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:26,022 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:26,027 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:29,960 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:29,965 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:29,970 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:37,986 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:37,991 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:37,996 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:41,879 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:41,884 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:41,888 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:46,982 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:46,986 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:46,991 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:57:52,110 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:57:52,117 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:57:52,120 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 17:58:17,932 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 17:58:17,936 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 17:58:17,941 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:20:31,020 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:20:31,027 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:20:31,032 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:20:45,373 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:20:45,378 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:20:45,382 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:20:57,355 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:20:57,360 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:20:57,363 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:21:00,498 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:21:00,504 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:21:00,507 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:21:03,653 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:21:03,658 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:21:03,664 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:21:06,756 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:21:06,760 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:21:06,765 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:34:39,198 [Worker-51: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:34:39,417 [Worker-51: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:34:39,652 [Worker-51: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:35:28,241 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:35:28,248 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:35:28,251 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:35:46,065 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:35:46,071 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:35:46,074 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:35:58,613 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:35:58,616 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:35:58,619 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:10,498 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:10,504 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:10,507 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:11,596 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:11,617 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:11,623 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:35,192 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:35,196 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:35,199 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:36,245 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:36,250 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:36,254 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:43,414 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:43,418 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:43,422 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:36:54,512 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:36:54,516 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:36:54,519 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:37:02,830 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:37:02,833 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:37:02,835 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:37:09,005 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:37:09,009 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:37:09,012 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:37:28,630 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:37:28,633 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:37:28,636 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:37:33,402 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:37:33,406 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:37:33,409 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:37:36,369 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:37:36,373 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:37:36,376 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:38:14,713 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:38:14,717 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:38:14,721 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:38:28,495 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:38:28,498 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:38:28,501 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:38:29,540 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:38:29,543 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:38:29,546 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:38:51,526 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:38:51,529 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:38:51,532 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:38:52,571 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:38:52,575 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:38:52,577 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:39:03,040 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:39:03,044 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:39:03,046 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:39:04,191 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:39:04,194 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 18:39:04,197 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 18:41:16,171 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:41:16,200 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:41:16,205 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 18:42:07,479 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:42:07,671 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:42:07,872 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:42:36,752 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:42:36,755 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:42:36,758 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 18:46:22,063 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:46:22,262 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:46:22,468 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:46:43,639 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:46:43,643 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:46:43,646 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 18:46:54,611 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:46:54,615 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:46:54,618 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 18:46:59,486 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:46:59,492 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:46:59,495 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 18:47:06,937 [Worker-64: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:47:07,131 [Worker-64: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:47:07,368 [Worker-64: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:19,289 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:19,465 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:19,654 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:33,904 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:34,084 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:54:34,264 [Worker-52: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 18:58:55,809 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 18:58:55,816 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 18:58:55,819 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 19:01:59,529 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 19:01:59,532 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 19:01:59,533 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 19:02:00,764 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 19:02:00,769 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-03 19:02:00,771 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_1_RestController\src\test\resources
+2025-03-03 19:03:02,178 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:03:02,358 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:03:02,536 [Worker-67: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:05:23,461 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 19:05:23,468 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 19:05:23,472 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 19:05:24,727 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 19:05:24,732 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 19:05:24,735 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 19:11:01,202 [Worker-57: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:11:01,377 [Worker-57: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:11:01,556 [Worker-57: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:20:09,464 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-03 19:20:09,475 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-03 19:20:09,482 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W5_2ConsumingWebservice\src\test\resources
+2025-03-03 19:26:24,444 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:26:24,905 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes
+2025-03-03 19:26:25,378 [Worker-66: Launching W5_1_RestController - W51RestControllerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Assignment1_ManhPhu_Giang: ca.sheridancollege.giangma:Assignment1_ManhPhu_Giang:0.0.1-SNAPSHOT with classifier null to /Assignment1_ManhPhu_Giang/target/classes

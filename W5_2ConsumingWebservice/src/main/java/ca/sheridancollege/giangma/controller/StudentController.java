@@ -1,7 +1,9 @@
 package ca.sheridancollege.giangma.controller;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
+import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,11 +15,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 
 import ca.sheridancollege.giangma.beans.Student;
+import ca.sheridancollege.giangma.services.AuthenticationService;
+import lombok.AllArgsConstructor;
 
 @Controller
+@AllArgsConstructor
 public class StudentController {
 	
-	private final String REST_URL = "http://localhost:8080/students";
+	private final String REST_URL = "http://localhost:50000/students";
+	private AuthenticationService authenticationService;
+	
 	
 	@GetMapping("/")
 	public String root() {
@@ -25,11 +32,26 @@ public class StudentController {
 	}
 	@GetMapping("/view")
 	public String viewStudents(Model model, RestTemplate restTemplate) {
-		ResponseEntity<Student[]> responeEntity = restTemplate.getForEntity(REST_URL, Student[].class);
 		
-		model.addAttribute("meow", responeEntity.getBody());
+		
+		@SuppressWarnings("unchecked")
+		ResponseEntity<ArrayList<Student>> responseEntity = 
+				(ResponseEntity<ArrayList<Student>>)
+				authenticationService.standardRequest(restTemplate, REST_URL, HttpMethod.GET, new ArrayList<Student>().getClass());
+		
+		model.addAttribute("meow", responseEntity.getBody());
+		
+		
+		
+//		ResponseEntity<Student[]> responeEntity = 
+//			restTemplate.getForEntity(REST_URL, Student[].class);
+//		
+//		model.addAttribute("meow", responeEntity.getBody());
+//		
 		return "view.html";
 	}
+	
+	
 	
 	
 	

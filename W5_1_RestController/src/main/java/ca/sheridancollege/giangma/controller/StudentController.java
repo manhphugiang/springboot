@@ -17,7 +17,7 @@ import ca.sheridancollege.giangma.repository.StudentRepository;
 import lombok.AllArgsConstructor;
 
 @RestController
-
+@AllArgsConstructor
 @RequestMapping("/students")
 public class StudentController {
 	private StudentRepository stuRepo;

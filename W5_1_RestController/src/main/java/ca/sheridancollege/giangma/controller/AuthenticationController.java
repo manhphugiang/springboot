@@ -23,7 +23,7 @@ public class AuthenticationController {
 		return ResponseEntity.ok(authenticationService.register(request));
 	}
 	
-	@PostMapping(value = {"/register"}, consumes = "application/json")
+	@PostMapping(value = {"/authenticate"}, consumes = "application/json")
 	public ResponseEntity<AuthenticationResponse> authenticate(@RequestBody AuthenticationRequest request){
 		return ResponseEntity.ok(authenticationService.authenticate(request));
 	}

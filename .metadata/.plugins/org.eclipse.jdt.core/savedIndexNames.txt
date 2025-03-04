@@ -15,7 +15,6 @@ INDEX VERSION 1.134+C:\Users\gmanh\eclipse-workspace\.metadata\.plugins\org.ecli
 1865797976.index
 1002175087.index
 2492127529.index
-2884718918.index
 2329263041.index
 1227424453.index
 466348269.index
