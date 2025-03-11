@@ -8,7 +8,8 @@
     <fullyQualifiedTypeName name="ca.sheridancollege.giangma.beans.Pet"/>
     <fullyQualifiedTypeName name="ca.sheridancollege.giangma.beans.Student"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonInclude.Include"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="ca.sheridancollege.giangma.domain.Student"/>
 </qualifiedTypeNameHistroy>
