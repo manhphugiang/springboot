@@ -1,0 +1,20 @@
+<h3>Movies List</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Runtime</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for ( movie of movies; track movie.id) {
+        <tr>
+            <td>{{movie.title}}</td>
+            <td>{{movie.runtime}}</td>
+            <td>{{movie.genre}}</td>
+        </tr>
+        }
+    </tbody>
+</table>

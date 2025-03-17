@@ -1,0 +1,9 @@
+body {
+    background-color: lightblue;
+    color: navy;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    width: 350px;
+    height: auto;
+}

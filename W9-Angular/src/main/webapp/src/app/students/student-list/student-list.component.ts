@@ -11,6 +11,8 @@ import { Student } from '../student';
 export class StudentListComponent {
   students:Student[] = [];
 
+
+  
   ngOnInit():void {//when my component loads 
     this.students = [
       {id:1, name:"John", age: 20},

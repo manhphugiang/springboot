@@ -1,0 +1,9 @@
+body {
+    background-color: yellow;
+    color: red;
+    font-family: 'Georgia', serif;
+}
+img {
+    width: 300px;
+    height: auto;
+}
