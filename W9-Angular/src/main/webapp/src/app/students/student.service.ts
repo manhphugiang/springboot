@@ -21,4 +21,8 @@ export class StudentService {
     return this.http.get<Student[]>(restUrl);
   }
 
+  create(data:any):Observable<any>{
+    return this.http.post(restUrl, data);
+    }
+
 }

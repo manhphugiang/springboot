@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Student } from '../student';
+import { StudentService } from '../student.service';
 
 @Component({
   selector: 'app-student-list',
@@ -9,15 +10,22 @@ import { Student } from '../student';
   styleUrl: './student-list.component.css'
 })
 export class StudentListComponent {
-  students:Student[] = [];
+  students: Student[] = [];
+
+  constructor(private studentService: StudentService) { }
+
+  getStudents(): void {
+    this.studentService.getAll().subscribe({ next: (data) => this.students = data });
+  }
+
+  ngOnInit(): void {
+    this.getStudents();
 
 
-  
-  ngOnInit():void {//when my component loads 
-    this.students = [
-      {id:1, name:"John", age: 20},
-      {id:2, name:"Jane", age: 21},
-      {id:3, name:"Doe", age: 22}
-    ];
+    this.studentService.onStudentAdded.subscribe(
+      (data: Student) => this.students.push(data)
+
+      
+    );
   }
 }
