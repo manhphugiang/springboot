@@ -10,12 +10,9 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <app-student-add></app-student-add>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <app-student-list></app-student-list>
-                        </div>
+                        <a href="/add" class="btn btn-primary">Add Student</a>
+                        <a href="/view" class="btn btn-primary">View Students</a>
+                        <router-outlet></router-outlet>
                     </div>
                 </div>
             </div>

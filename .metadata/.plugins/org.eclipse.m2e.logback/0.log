@@ -17284,3 +17284,220 @@ Caused by: java.io.IOException: The pipe has been ended
 2025-03-17 18:29:42,222 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-03-17 18:29:42,235 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
 2025-03-17 18:35:20,401 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-17 18:35:20,430 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-17 18:35:20,441 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-17 18:35:41,698 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-17 18:35:41,716 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-17 18:35:41,724 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-17 19:09:31,200 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-17 19:09:31,206 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-17 19:09:31,221 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 15:42:27,289 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 15:42:27,292 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 15:42:27,302 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:13:09,745 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 16:13:09,758 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:13:09,783 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:19:18,547 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:19:18,647 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:19:18,660 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:19:32,567 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:19:32,606 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:19:32,619 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:19:42,414 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:19:42,429 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:19:42,439 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:19:47,856 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:19:47,908 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:19:47,923 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:19:54,565 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:19:54,581 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:19:54,592 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:20:00,154 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:20:00,181 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:20:00,191 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:20:05,866 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:20:05,883 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:20:05,894 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:27:34,967 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 16:27:34,971 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-03-18 16:27:34,997 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:29:34,630 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:29:34,665 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:29:34,678 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:29:49,767 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:29:49,792 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:29:49,802 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:29:55,255 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:29:55,276 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:29:55,288 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:00,984 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:00,999 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:01,011 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:06,714 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:06,729 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:06,741 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:12,382 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:12,397 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:12,411 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:20,048 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:20,063 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:20,075 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:25,727 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:25,744 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:25,755 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:35,235 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:35,251 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:35,263 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:41,317 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:41,332 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:41,344 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:47,121 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:47,136 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:47,147 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:53,614 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:53,627 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:53,641 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:30:59,622 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 16:30:59,636 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 16:30:59,647 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 16:55:21,958 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-03-18 16:58:20,723 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [299])
+2025-03-18 16:58:20,727 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-03-18 16:58:20,728 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-03-18 16:58:20,728 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-03-18 16:58:20,729 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-03-18 16:58:20,730 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-03-18 16:58:20,731 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-03-18 16:58:20,732 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-03-18 16:58:20,732 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-03-18 16:58:20,733 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-03-18 16:58:20,733 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-03-18 16:58:20,734 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-03-18 16:58:20,735 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-03-18 16:58:20,735 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-03-18 16:58:20,736 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-03-18 16:58:20,737 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-03-18 16:58:20,737 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-03-18 16:58:20,738 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-03-18 16:58:20,739 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-03-18 16:58:20,739 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-03-18 16:58:20,740 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-03-18 16:58:20,740 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-03-18 16:58:20,741 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-03-18 16:58:20,742 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-03-18 16:58:20,742 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-03-18 16:58:20,743 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-03-18 16:58:20,744 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-03-18 16:58:20,744 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-03-18 16:58:20,745 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-03-18 16:58:20,746 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-03-18 16:58:20,747 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-03-18 16:58:20,747 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-03-18 16:58:20,748 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-03-18 16:58:20,749 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-03-18 16:58:20,749 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-03-18 16:58:20,750 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-03-18 16:58:20,751 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-03-18 16:58:20,752 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-03-18 16:58:20,752 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-03-18 16:58:20,752 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-03-18 16:58:20,753 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-03-18 16:58:20,753 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-03-18 16:58:20,753 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-03-18 16:58:20,754 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-03-18 16:58:20,754 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-03-18 16:58:20,757 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [541])
+2025-03-18 16:58:20,758 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\com.google.guava_33.3.1.jre.jar
+2025-03-18 16:58:20,759 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [521])
+2025-03-18 16:58:20,759 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-03-18 16:58:20,760 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2025-03-18 16:58:20,760 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-03-18 16:58:20,760 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2025-03-18 16:58:20,761 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-03-18 16:58:20,761 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2025-03-18 16:58:20,763 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-03-18 16:58:20,763 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2025-03-18 16:58:20,764 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-03-18 16:58:20,765 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2025-03-18 16:58:20,766 [Worker-126: Launching W9-Angular] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gmanh\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-03-18 16:58:20,775 [Worker-126: Launching W9-Angular] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\gmanh\eclipse-workspace\W9-Angular":
+2025-03-18 16:58:20,776 [Worker-126: Launching W9-Angular] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean package
+2025-03-18 17:01:06,786 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 17:01:06,813 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 17:01:06,822 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:02:47,489 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:02:47,493 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:02:47,506 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:05:48,035 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:05:48,039 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:05:48,046 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:06:03,308 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:03,312 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:03,319 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:06:13,545 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:13,548 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:13,556 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:06:34,702 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:34,706 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:06:34,713 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:11:43,242 [Worker-121: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.sheridancollege.giangma:W9-Angular:0.0.1-SNAPSHOT @ C:\Users\gmanh\eclipse-workspace\W9-Angular\pom.xml.
+2025-03-18 17:11:44,743 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.pom
+2025-03-18 17:11:44,771 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.pom
+2025-03-18 17:11:44,796 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.pom
+2025-03-18 17:11:44,805 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.pom
+2025-03-18 17:11:45,118 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
+2025-03-18 17:11:45,283 [Worker-121: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
+2025-03-18 17:11:45,297 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
+2025-03-18 17:11:45,330 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
+2025-03-18 17:11:46,830 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:11:46,835 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:11:46,847 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:11:47,534 [Worker-132: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5-sources.jar
+2025-03-18 17:11:47,681 [Worker-132: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5-sources.jar
+2025-03-18 17:11:47,710 [Worker-132: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.7.5
+2025-03-18 17:11:47,794 [Worker-132: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3-sources.jar
+2025-03-18 17:11:47,846 [Worker-132: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3-sources.jar
+2025-03-18 17:11:47,854 [Worker-132: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.checkerframework:checker-qual:3.48.3
+2025-03-18 17:11:53,188 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-03-18 17:11:59,053 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.sheridancollege.giangma:W9-Angular:0.0.1-SNAPSHOT @ C:\Users\gmanh\eclipse-workspace\W9-Angular\pom.xml.
+2025-03-18 17:12:06,616 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /W9-Angular/src/main/java
+2025-03-18 17:12:06,629 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /W9-Angular/src/main/resources
+2025-03-18 17:12:06,631 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /W9-Angular/src/main/resources
+2025-03-18 17:12:06,633 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /W9-Angular/src/test/java
+2025-03-18 17:12:06,636 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /W9-Angular/src/test/resources
+2025-03-18 17:12:13,397 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 5.00 sec, refresh facades takes 2.00 sec, update config takes 7.00 sec 
+2025-03-18 17:12:15,694 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-18 17:12:15,824 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-03-18 17:12:15,853 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:12:21,989 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:12:22,010 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:12:22,017 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:12:57,437 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:12:57,450 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:12:57,456 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:13:27,171 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:13:27,181 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:13:27,189 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:13:59,248 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:13:59,264 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:13:59,271 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:14:12,639 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:14:12,656 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:14:12,663 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:14:19,034 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:14:19,048 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:14:19,055 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:14:24,490 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:14:24,500 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:14:24,507 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:14:30,678 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:14:30,701 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:14:30,708 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:14:36,126 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-18 17:14:36,161 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:14:36,173 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-18 17:16:54,669 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:16:54,672 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 17:16:54,679 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gmanh\eclipse-workspace\W9-Angular\src\test\resources
+2025-03-22 15:35:19,971 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

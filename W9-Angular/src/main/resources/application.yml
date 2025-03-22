@@ -1,12 +1,10 @@
 spring:
   jpa:
     show-sql: true
-    database: h2
-  h2:
-    console:
-      enabled: true
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: create-drop
   datasource:
-    url: jdbc:h2:mem:testdb
-  sql:
-    init: 
-      platform: h2
+    url: jdbc:postgresql://ajf:5432/ajf
+    username: postgres
+    password: 1234

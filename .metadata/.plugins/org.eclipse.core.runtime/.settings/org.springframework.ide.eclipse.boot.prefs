@@ -4,6 +4,7 @@ org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=9
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=10
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=9
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=9
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.postgresql=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.thymeleaf=8
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=10
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=W9-Angular
