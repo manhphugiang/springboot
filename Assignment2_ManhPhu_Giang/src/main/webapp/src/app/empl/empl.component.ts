@@ -5,7 +5,7 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-empl',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [ListEmplComponent, AddEmplComponent, RouterOutlet],
   templateUrl: './empl.component.html',
   styleUrl: './empl.component.css'
 })

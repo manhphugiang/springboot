@@ -12,7 +12,7 @@ const restUrl = '/api/employees';
 })
 
 export class EmployeeService {
-
+  public name: string = "Employee Service";
   constructor(private http:HttpClient) { }
 
   onEmployeeAdded = new EventEmitter<Employee>();

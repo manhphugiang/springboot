@@ -17,6 +17,8 @@ export class AddEmplComponent {
     id: 0,
     name: ''
   }
+
+  
   constructor(private employeeService: EmployeeService) { }
 
   saveEmployee(): void {
