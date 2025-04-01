@@ -1,0 +1,22 @@
+<h2>Add New Item</h2>
+<label for="name">Item Name:</label>
+<input type="text" placeholder="Enter item name" name="name" id="name" [(ngModel)]="item.name" />
+
+<label for="price">Price:</label>
+<input type="number" placeholder="Enter item price" name="price" id="price" [(ngModel)]="item.price" />
+
+<label for="quantity">Quantity:</label>
+<input type="number" placeholder="Enter item quantity" name="quantity" id="quantity" [(ngModel)]="item.quantity" />
+
+
+<label for="employeeName">Employee Name:</label>
+
+<select id="employeeName" [(ngModel)]="item.employeeName" required>
+    @for ( empl of employees; track empl.id) {
+        <option>
+            <td>{{empl.name}}</td>
+        </option>
+    }
+</select>
+
+<button (click)="saveItem()">Submit</button>

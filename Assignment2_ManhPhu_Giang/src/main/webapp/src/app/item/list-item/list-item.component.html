@@ -1,0 +1,14 @@
+<h3>Item List</h3>
+
+<table>
+    @for (item of items; track item.id) {
+    <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.employeeName}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.quantity}}</td>
+        <td><button (click)="item.id !== undefined && deleteItem(item.id)">Delete</button></td>
+    </tr>
+}
+</table>
