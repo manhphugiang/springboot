@@ -15,3 +15,4 @@ public class HomeController {
 		return "secure.html";
 	}
 }
+	

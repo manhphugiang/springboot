@@ -24,8 +24,6 @@ export class StudentListComponent {
 
     this.studentService.onStudentAdded.subscribe(
       (data: Student) => this.students.push(data)
-
-      
     );
   }
 }

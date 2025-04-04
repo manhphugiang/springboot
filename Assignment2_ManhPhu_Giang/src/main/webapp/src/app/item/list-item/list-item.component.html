@@ -1,6 +1,19 @@
-<h3>Item List</h3>
+<br>
+<br>
+<hr>
+<h2>Item List</h2>
 
 <table>
+
+
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Employee Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Delete</th>
+    </tr>
     @for (item of items; track item.id) {
     <tr>
         <td>{{item.id}}</td>

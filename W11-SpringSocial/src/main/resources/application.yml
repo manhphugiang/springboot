@@ -7,5 +7,5 @@ spring:
             clientId: 640982862747-c3tncupakik5qtjpjta3mt04cj0jfb0b.apps.googleusercontent.com
             clientSecret: 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
           facebook:
-            clientId: Facebook_Client_Id
-            clientSecret: Facebook_Client_Secret
+            clientId: 633135292904031
+            clientSecret: 9a33866f0c7b81023b6a472b7b61e942

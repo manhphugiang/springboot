@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    ca.sheridancollege.giangma.config.\
+    SqlTestContainersSpringContextCustomizerFactory

@@ -11,9 +11,11 @@ const restUrl = '/api/students';
 @Injectable({
   providedIn: 'root'
 })
+
+
 export class StudentService {
   //set the connection to the web service
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   onStudentAdded = new EventEmitter<Student>();
 
@@ -21,8 +23,9 @@ export class StudentService {
     return this.http.get<Student[]>(restUrl);
   }
 
-  create(data:any):Observable<any>{
+  create(data: any): Observable<any> {
     return this.http.post(restUrl, data);
-    }
+  }
+
 
 }
