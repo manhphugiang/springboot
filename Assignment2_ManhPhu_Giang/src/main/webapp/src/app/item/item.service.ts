@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Item } from './item';
 import { EventEmitter } from '@angular/core';
 import { Employee } from '../empl/employee';
+
 const restUrl = '/api/items';
 const restUrl2 = '/api/employees';
 
@@ -35,7 +36,7 @@ export class ItemService {
   
   delete(id: number): Observable<void> {
     return this.http.delete<void>(`${restUrl}/${id}`);
-  }  
+  }
 
 
   // why do we need thisssssssssssssssss

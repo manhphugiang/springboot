@@ -1,0 +1,27 @@
+<br>
+<br>
+<hr>
+<h2>Shirt List</h2>
+
+<table>
+
+
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Employee Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Delete</th>
+    </tr>
+    @for (item of shirts; track item.id) {
+    <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.employeeName}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.quantity}}</td>
+        <td><button (click)="item.id !== undefined && deleteShirt(item.id)">Delete</button></td>
+    </tr>
+}
+</table>

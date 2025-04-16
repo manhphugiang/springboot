@@ -9,6 +9,7 @@ import { Employee } from '../employee';
   styleUrl: './list-empl.component.css'
 })
 export class ListEmplComponent {
+  
   employees: Employee[] = [];
 
   constructor(private employeeService: EmployeeService) { }

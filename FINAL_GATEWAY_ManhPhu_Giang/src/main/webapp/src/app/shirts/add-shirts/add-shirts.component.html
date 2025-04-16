@@ -1,0 +1,26 @@
+<br>
+<br>
+<hr>
+<h2>Add New Shirt</h2>
+
+
+<h3 for="name">Shirt Name:</h3>
+<input type="text" placeholder="Enter shirt name" name="name" id="name" [(ngModel)]="shirts.name" />
+
+<h3 for="price">Price:</h3>
+<input type="number" placeholder="Enter shirt price" name="price" id="price" [(ngModel)]="shirts.price" />
+
+<h3 for="quantity">Quantity:</h3>
+<input type="number" placeholder="Enter shirt quantity" name="quantity" id="quantity" [(ngModel)]="shirts.quantity" />
+
+
+<h3 for="employeeName">Employee Name:</h3>
+
+<select id="employeeName" [(ngModel)]="shirts.employeeName" required>
+    @for ( empl of programmers; track empl.id) {
+        <option>
+            <td>{{empl.name}}</td>
+        </option>
+    }
+</select>
+<button (click)="saveShirt()">Submit</button>
